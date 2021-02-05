@@ -13,7 +13,7 @@ DOMAIN,mtrace.wetvinfo.com,REJECT
 # > 微博
 DOMAIN,uve.weibo.com,REJECT
 # > 什么值得买
-URL-REGEX,^https?:\/\/((app-)?api|haojia\.m)\.smzdm\.com\/((v\d\/)?uti|detail_modu)l\/(loading|banner),
+URL-REGEX,^https?:\/\/((app-)?api|haojia\.m)\.smzdm\.com\/((v\d\/)?uti|detail_modu)l\/(loading|banner), REJECT
 # > 携程
 URL-REGEX,^https?:\/\/socketio\.ctrip\.com\/api,REJECT
 
